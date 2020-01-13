@@ -1,0 +1,65 @@
+<!doctype html>
+<style type="text/css">
+	#mainPopup {
+		/* height: 100px; */
+		padding: 5px;
+		width: 300px;
+		font-family: Helvetica, Ubuntu, Arial, sans-serif;
+		background-color: #ff5715;
+		border-color: black;
+		border-width: 10px;
+	}
+	#root-search-input {
+		width: 80%;
+		height: 30px;
+		float: right;
+		font-size: 12px;
+		padding-left: 10px;
+	}
+	#pr-team-selection {
+		height: 30px;
+		width: 100%;
+		font-size: 14px;
+	}
+	body {
+		margin: 2px !important;
+		background-color: black;
+	}
+	#root-logo {
+		height: 36px;
+	}
+</style>
+
+<div id="mainPopup">
+<img src="/icons/logo_48.png" id="root-logo"><input id="root-search-input" placeholder="Search Engineering Docs" autofocus="autofocus">
+<br/>
+<br/>
+<select id="pr-team-selection">
+	<option value="0">View Team Pull Requests</option>
+	<option value="team-ad-bidder">Ad Bidder</option>
+	<option value="team-application-infrastructure">App Infrastructure</option>
+	<option value="team-claims-one">Claims One</option>
+	<option value="team-claims-two">Claims Two</option>
+	<option value="team-claims-three">Claims Three</option>
+	<option value="team-claims-platform">Claims Platform</option>
+	<option value="team-compliance">Compliance</option>
+	<option value="team-conversion-one">Conversion</option>
+	<option value="team-data-science-tooling">Data Science Tooling</option>
+	<option value="team-data-warehouse">Data Warehouse</option>
+	<option value="team-drive-science">Drive Science</option>
+	<option value="team-homeowners">Homeowners</option>
+	<option value="team-marketing-technology">Marketing Technology</option>
+	<option value="team-new-channels">New Channels</option>
+	<option value="team-policyholder">Policyholder</option>
+	<option value="team-pricing-tooling">Pricing Tooling</option>
+	<option value="team-pricing">Pricing</option>
+	<option value="team-reliability">Reliability</option>
+	<option value="team-renters">Renters</option>
+	<option value="team-retention">Retention</option>
+	<option value="team-state-expansion">State Expansion</option>
+	<option value="team-telematics">Telematics</option>
+	<option value="team-web-conversion">Web Conversion</option>
+</select>
+</div>
+
+<script src="script.js"></script>
